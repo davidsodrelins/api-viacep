@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Consulta CEP</title>
+</head>
+<body >
+    <h2>Consulta CEP - ViaCep JS Vanilla e Axios CDN</h2>
+    <div class="consulta-cep">
+        <div class="item">
+            <label>Cep:</label>
+            <input onblur="searchCep()" placeholder="Informe o cep" id="cep" type="text">
+        </div>
+        <div class="item">
+            <label>Rua:</label>
+            <input id="rua" type="text">
+        </div>
+        <div class="item">
+            <label>Bairro:</label>
+            <input id="bairro" type="text">
+        </div>
+        <div class="item">
+            <label>Cidade:</label>
+            <input id="cidade" type="text">
+        </div>
+        <div class="item">
+            <label>Estado:</label>
+            <input id="estado" type="text">
+        </div>
+        <button onclick="searchCep()">Consultar</button>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.js" integrity="sha512-uplugzeh2/XrRr7RgSloGLHjFV0b4FqUtbT5t9Sa/XcilDr1M3+88u/c+mw6+HepH7M2C5EVmahySsyilVHI/A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+</html>

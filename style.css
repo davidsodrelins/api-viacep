@@ -1,0 +1,20 @@
+body {
+text-align: -webkit-center;
+   margin: 0 auto;
+   left: 0;
+   right: 0;
+}
+.consulta-cep{
+ width: 30%;
+}
+
+.item{
+    display: grid;
+    text-align: start;
+    margin: 15px;
+} 
+
+button{
+    width: 50%;
+    margin: 15px;
+}
